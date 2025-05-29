@@ -1172,6 +1172,28 @@ pre {
   .offset-lg-11 {
     margin-left: 91.66667%; } }
 
+  @media screen and (max-width: 768px) {
+    .topnav a { display: none; }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .topnav.responsive { position: relative; }
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
 @media (min-width: 1200px) {
   .col-xl {
     -ms-flex-preferred-size: 0;
